@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1702512035697-935b865a85c9?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+    background-position: 55% 45%;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(133, 138, 139, 0.325);
+}
+
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;  
+    color: #fff;
+}
+
+#textright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#textright p{
+    font-size: 15px;
+    width: 40%;
+}
+
+#textright i{
+    color: #fff;
+}
+
+#text h2{
+    font-weight: 500;
+    font-size: 6vw;
+
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgb(38, 52, 106);
+
+}
+
+#bone{
+    width: 25%;
+    min-height: inherit;
+    padding: 30px;
+    background-color:#fff;
+}
+
+#bone p{
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+#bone a{
+   
+    margin: 10%;
+    background-color: #5689b6ec;
+    margin-left: auto;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 2px 8px 2px 5px;
+    font-size: 10px;
+    text-decoration: honeydew;
+  }
+  
+  #bone a:hover {
+    background-color: #4c2294;
+    margin-top: 50px;
+  }
+
+
+
+#btwo{
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1682695797873-aa4cb6edd613?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#bthree{
+    width: 20%;
+    min-height: inherit;
+    background-color: rgb(43, 226, 110);
+}
+
+#bthreetop{
+    width: 100%;
+    height: 20vh;
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(108, 78, 78);
+}
+
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+#bthreetop a{
+   
+    margin: 10%;
+    background-color: #b67356ec;
+    margin-left: auto;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 2px 8px 2px 5px;
+    font-size: 10px;
+    text-decoration: honeydew;
+  }
+  
+  #bthreetop a:hover {
+    background-color: #942231;
+    margin-top: 50px;
+  }
+
+#bthreebottom{
+    width: 100%;
+    min-height: 50vh ;
+    background-image: url(https://images.unsplash.com/photo-1618681317438-a8dd7da06cd4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#bfour{
+    width: 30%;
+    min-height: inherit;
+    padding: 30px;
+    background-color: #444;
+    color: #fff;
+}
+
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notf #photo1{
+    background-image: url(https://www.biospectrumindia.com/uploads/articles/download-19109.jpeg);
+    background-size:cover;
+    background-position:  center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+.notf p{
+    width: 86%;
+    font-size: 12px;
+}
+
+.notf #photo2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c4/Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png);
+    background-size:cover;
+    background-position:  center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+.notf p{
+    width: 86%;
+    font-size: 12px;
+}
+.notf #photo3{
+    background-image: url(https://images.hindustantimes.com/img/2022/07/04/1600x900/PTI07-04-2022-000116B-0_1656927602070_1656948725960.jpg);
+    background-size:cover;
+    background-position:  center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+.notf #photo4 {
+    background-image: url(https://etimg.etb2bimg.com/thumb/msid-88769378,imgsize-46168,width-1200,height=765,overlay-etauto/industry/centre-making-efforts-to-give-people-relief-from-pollution-nitin-gadkari.jpg);
+    background-size:cover;
+    background-position:  center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
+@media(max-width: 500px){
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #text h2{
+        font-size: 10vw;
+    }
+
+    #overlay #text #textright{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 20px;
+    }
+
+    #overlay #text #textright #icon{
+        margin-top: 20px;
+    }
+
+    #bottom{
+        flex-direction: column;
+    }
+    #bone{
+        width: 100%;
+
+    }
+    #btwo{
+        width: 100%;
+    }
+    #bthree{
+        flex-direction: column;
+        width: 100%;
+    }
+    #bfour{
+        width: 100%;
+    }
+}
